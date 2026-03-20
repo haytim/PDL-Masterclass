@@ -2,7 +2,7 @@
 
 ## Overview
 
-Prompt Declaration Language (PDL) is IBM's declarative framework for building reliable LLM applications using YAML-based specifications. This repository contains practical lab marial and supporting materials for my PDL masterclass.
+Prompt Declaration Language (PDL) is IBM's declarative framework for building reliable LLM applications using YAML-based specifications. This repository contains practical lab material and supporting lecture materials for my PDL masterclass.
 
 ## Setup
 
@@ -23,10 +23,9 @@ Prompt Declaration Language (PDL) is IBM's declarative framework for building re
    cd PDL-Masterclass
    ```
    
-   **Option B: Unzip from email** (if you received PDL-Masterclass.zip)
+   **Option B: Download from Onedrive**
    ```bash
-   unzip PDL-Masterclass.zip
-   cd PDL-Masterclass
+   https://heriotwatt-my.sharepoint.com/:f:/g/personal/th2015_hw_ac_uk/IgACJFD0q0Q5RqRZJDIsX9qUAb8M-ujQK8xK430cQiXGwfc?e=zZB28a
    ```
 
 2. **Install Docker Desktop**
