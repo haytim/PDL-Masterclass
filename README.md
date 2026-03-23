@@ -3,7 +3,9 @@
 ## Overview
 
 Prompt Declaration Language (PDL) is IBM's declarative framework for building reliable LLM applications using YAML-based specifications. This repository contains practical lab material and supporting lecture materials for my PDL masterclass.
+
 Created by Tim Hayes & Supervised by Manuel Maarek
+
 Updated March 2026
 
 ## Setup
