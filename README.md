@@ -4,12 +4,16 @@
 
 Prompt Declaration Language (PDL) is IBM's declarative framework for building reliable LLM applications using YAML-based specifications. This repository contains practical lab material and supporting lecture materials for my PDL masterclass.
 
+Created by Tim Hayes & Supervised by Manuel Maarek
+
+Updated March 2026
+
 ## Setup
 
 ### Requirements
 
 - Docker Desktop (macOS, Windows, or Linux)
-- 5 GB free disk space
+- 10 GB free disk space
 
 ### Installation
 
@@ -78,16 +82,9 @@ docker exec ollama-server ollama list
 
 **Docker daemon won't start (Linux):**
 ```bash
-sudo systemctl start docker
-sudo usermod -aG docker $USER
-newgrp docker
-```
-
-**Container won't start:**
-```bash
-docker compose down
-docker compose up -d --build
-docker compose logs
+sudo systemctl start docker        # Starts the Docker daemon service
+sudo usermod -aG docker $USER      # Adds your user to the docker group to avoid user sudo in future
+newgrp docker                      # Activates the new group membership
 ```
 
 **Port 8888 in use:**
