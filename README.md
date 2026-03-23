@@ -36,13 +36,12 @@ Updated March 2026
    - Windows & macOS: [Download and install](https://www.docker.com/products/docker-desktop/)
    - Linux: Follow [Docker documentation](https://docs.docker.com/engine/install/)
 
-3. **Start the environment** (takes 4-6 minutes)
+3. **Start the environment**
    ```bash
    docker compose up -d
-   docker compose ps  # To verify both ollama and jupyter are running
    ```
 
-4. **Pull the language model** (first run only, takes 2-3 minutes):
+4. **Pull the language model**
    ```bash
    docker exec ollama-server ollama pull granite-code:3b
    ```
